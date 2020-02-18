@@ -1,0 +1,8 @@
+include ':app'
+rootProject.name='hupu'
+
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+        settingsDir.parentFile,
+        'vp_flutter/.android/include_flutter.groovy'
+))
