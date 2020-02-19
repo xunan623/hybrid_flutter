@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-hupuios/Pods-hupuios-frameworks.sh
+${PODS_ROOT}/../../vp_flutter/.ios/Flutter/engine/Flutter.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/WHDebugTool/WHDebugTool.framework
+${PODS_ROOT}/../../vp_flutter/.ios/Flutter/App.framework

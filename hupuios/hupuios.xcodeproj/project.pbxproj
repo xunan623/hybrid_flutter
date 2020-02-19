@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7140CA4D23F97CC000F2F1B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7140CA4C23F97CC000F2F1B0 /* AppDelegate.m */; };
+		7140CA5323F97CC000F2F1B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7140CA5223F97CC000F2F1B0 /* ViewController.m */; };
+		7140CA5623F97CC000F2F1B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7140CA5423F97CC000F2F1B0 /* Main.storyboard */; };
+		7140CA5823F97CC400F2F1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7140CA5723F97CC400F2F1B0 /* Assets.xcassets */; };
+		7140CA5B23F97CC400F2F1B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7140CA5923F97CC400F2F1B0 /* LaunchScreen.storyboard */; };
+		7140CA5E23F97CC400F2F1B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7140CA5D23F97CC400F2F1B0 /* main.m */; };
+		71928C6023FBD28100B9D294 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71928C5C23FBD28000B9D294 /* FirstViewController.m */; };
+		71928C6123FBD28100B9D294 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71928C5E23FBD28100B9D294 /* SecondViewController.m */; };
+		71B1DB1A23FBF85000C09892 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B1DB1923FBF85000C09892 /* SceneDelegate.m */; };
+		75F93F1D63BD533C773C1AF2 /* Pods_hupuios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE710B3F047D2DFD27808EF /* Pods_hupuios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7140CA4823F97CC000F2F1B0 /* hupuios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hupuios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7140CA4B23F97CC000F2F1B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7140CA4C23F97CC000F2F1B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7140CA5123F97CC000F2F1B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7140CA5223F97CC000F2F1B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7140CA5523F97CC000F2F1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7140CA5723F97CC400F2F1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7140CA5A23F97CC400F2F1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7140CA5C23F97CC400F2F1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7140CA5D23F97CC400F2F1B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71928C5C23FBD28000B9D294 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		71928C5D23FBD28100B9D294 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		71928C5E23FBD28100B9D294 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		71928C5F23FBD28100B9D294 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		71B1DB1823FBF85000C09892 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		71B1DB1923FBF85000C09892 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7325A6856B8012B412F6BE28 /* Pods-hupuios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hupuios.debug.xcconfig"; path = "Target Support Files/Pods-hupuios/Pods-hupuios.debug.xcconfig"; sourceTree = "<group>"; };
+		ACE710B3F047D2DFD27808EF /* Pods_hupuios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hupuios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E96A1B2318039860C34748 /* Pods-hupuios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hupuios.release.xcconfig"; path = "Target Support Files/Pods-hupuios/Pods-hupuios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7140CA4523F97CC000F2F1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F93F1D63BD533C773C1AF2 /* Pods_hupuios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25CE164ED6C70A6B6B8F4ED4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACE710B3F047D2DFD27808EF /* Pods_hupuios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7140CA3F23F97CC000F2F1B0 = {
+			isa = PBXGroup;
+			children = (
+				7140CA4A23F97CC000F2F1B0 /* hupuios */,
+				7140CA4923F97CC000F2F1B0 /* Products */,
+				D684BD0B463DBF7A24F22CC3 /* Pods */,
+				25CE164ED6C70A6B6B8F4ED4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7140CA4923F97CC000F2F1B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7140CA4823F97CC000F2F1B0 /* hupuios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7140CA4A23F97CC000F2F1B0 /* hupuios */ = {
+			isa = PBXGroup;
+			children = (
+				71B1DB1823FBF85000C09892 /* SceneDelegate.h */,
+				71B1DB1923FBF85000C09892 /* SceneDelegate.m */,
+				71928C5F23FBD28100B9D294 /* FirstViewController.h */,
+				71928C5C23FBD28000B9D294 /* FirstViewController.m */,
+				71928C5D23FBD28100B9D294 /* SecondViewController.h */,
+				71928C5E23FBD28100B9D294 /* SecondViewController.m */,
+				7140CA4B23F97CC000F2F1B0 /* AppDelegate.h */,
+				7140CA4C23F97CC000F2F1B0 /* AppDelegate.m */,
+				7140CA5123F97CC000F2F1B0 /* ViewController.h */,
+				7140CA5223F97CC000F2F1B0 /* ViewController.m */,
+				7140CA5423F97CC000F2F1B0 /* Main.storyboard */,
+				7140CA5723F97CC400F2F1B0 /* Assets.xcassets */,
+				7140CA5923F97CC400F2F1B0 /* LaunchScreen.storyboard */,
+				7140CA5C23F97CC400F2F1B0 /* Info.plist */,
+				7140CA5D23F97CC400F2F1B0 /* main.m */,
+			);
+			path = hupuios;
+			sourceTree = "<group>";
+		};
+		D684BD0B463DBF7A24F22CC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7325A6856B8012B412F6BE28 /* Pods-hupuios.debug.xcconfig */,
+				D9E96A1B2318039860C34748 /* Pods-hupuios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7140CA4723F97CC000F2F1B0 /* hupuios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7140CA6123F97CC400F2F1B0 /* Build configuration list for PBXNativeTarget "hupuios" */;
+			buildPhases = (
+				D1C389048E545436E19950F9 /* [CP] Check Pods Manifest.lock */,
+				E7ECA7709A5170748F29EF0A /* [CP-User] Run Flutter Build Script */,
+				7140CA4423F97CC000F2F1B0 /* Sources */,
+				7140CA4523F97CC000F2F1B0 /* Frameworks */,
+				7140CA4623F97CC000F2F1B0 /* Resources */,
+				B8FCF7B6D32464CA115C0164 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hupuios;
+			productName = hupuios;
+			productReference = 7140CA4823F97CC000F2F1B0 /* hupuios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7140CA4023F97CC000F2F1B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = centanet;
+				TargetAttributes = {
+					7140CA4723F97CC000F2F1B0 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7140CA4323F97CC000F2F1B0 /* Build configuration list for PBXProject "hupuios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7140CA3F23F97CC000F2F1B0;
+			productRefGroup = 7140CA4923F97CC000F2F1B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7140CA4723F97CC000F2F1B0 /* hupuios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7140CA4623F97CC000F2F1B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7140CA5B23F97CC400F2F1B0 /* LaunchScreen.storyboard in Resources */,
+				7140CA5823F97CC400F2F1B0 /* Assets.xcassets in Resources */,
+				7140CA5623F97CC000F2F1B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8FCF7B6D32464CA115C0164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hupuios/Pods-hupuios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hupuios/Pods-hupuios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hupuios/Pods-hupuios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1C389048E545436E19950F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hupuios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7ECA7709A5170748F29EF0A /* [CP-User] Run Flutter Build Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../vp_flutter/.metadata",
+				"${SRCROOT}/../vp_flutter/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/../vp_flutter/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/../vp_flutter/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../vp_flutter/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7140CA4423F97CC000F2F1B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71928C6123FBD28100B9D294 /* SecondViewController.m in Sources */,
+				71B1DB1A23FBF85000C09892 /* SceneDelegate.m in Sources */,
+				7140CA5323F97CC000F2F1B0 /* ViewController.m in Sources */,
+				7140CA4D23F97CC000F2F1B0 /* AppDelegate.m in Sources */,
+				71928C6023FBD28100B9D294 /* FirstViewController.m in Sources */,
+				7140CA5E23F97CC400F2F1B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7140CA5423F97CC000F2F1B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7140CA5523F97CC000F2F1B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7140CA5923F97CC400F2F1B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7140CA5A23F97CC400F2F1B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7140CA5F23F97CC400F2F1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7140CA6023F97CC400F2F1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7140CA6223F97CC400F2F1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7325A6856B8012B412F6BE28 /* Pods-hupuios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQS98NEX37;
+				INFOPLIST_FILE = hupuios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hupuios.aakld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7140CA6323F97CC400F2F1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E96A1B2318039860C34748 /* Pods-hupuios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQS98NEX37;
+				INFOPLIST_FILE = hupuios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hupuios.aakld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7140CA4323F97CC000F2F1B0 /* Build configuration list for PBXProject "hupuios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7140CA5F23F97CC400F2F1B0 /* Debug */,
+				7140CA6023F97CC400F2F1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7140CA6123F97CC400F2F1B0 /* Build configuration list for PBXNativeTarget "hupuios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7140CA6223F97CC400F2F1B0 /* Debug */,
+				7140CA6323F97CC400F2F1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7140CA4023F97CC000F2F1B0 /* Project object */;
+}

@@ -1,0 +1,39 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - Masonry (1.1.0)
+  - vp_flutter (0.0.1):
+    - Flutter
+  - WHDebugTool (2.1)
+
+DEPENDENCIES:
+  - Flutter (from `../vp_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../vp_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - Masonry (~> 1.1.0)
+  - vp_flutter (from `../vp_flutter/.ios/Flutter`)
+  - WHDebugTool (~> 2.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - WHDebugTool
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../vp_flutter/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../vp_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  vp_flutter:
+    :path: "../vp_flutter/.ios/Flutter"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  vp_flutter: cb89c3327c90b448314e01a86ddb69e23716846f
+  WHDebugTool: 93b0a99e3b47e57f94b91c407b4a4c5bfaaec531
+
+PODFILE CHECKSUM: 9b822ae8f6b5931b76a8e2a3207af96ea278ce45
+
+COCOAPODS: 1.8.4
