@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListViewController">
+            <connections>
+                <outlet property="firstBtn" destination="FNI-IY-meq" id="E4B-HK-AOT"/>
+                <outlet property="scrollView" destination="Bhw-Ww-0E5" id="55d-Zf-jWK"/>
+                <outlet property="secondBtn" destination="EZq-O8-X7W" id="pD8-PD-56N"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEk-uT-clw">
+                    <rect key="frame" x="278" y="46" width="138" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="P6h-5j-ZuY"/>
+                    </constraints>
+                    <state key="normal" title="第三个页面"/>
+                    <connections>
+                        <action selector="thirdClick:" destination="-1" eventType="touchUpInside" id="8XS-rs-olm"/>
+                    </connections>
+                </button>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bhw-Ww-0E5">
+                    <rect key="frame" x="2" y="86" width="414" height="734"/>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZq-O8-X7W">
+                    <rect key="frame" x="140" y="46" width="138" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="wX6-36-JPM"/>
+                    </constraints>
+                    <state key="normal" title="第二个页面"/>
+                    <connections>
+                        <action selector="secondBtnClick:" destination="-1" eventType="touchUpInside" id="TEl-Gr-WdS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNI-IY-meq">
+                    <rect key="frame" x="2" y="46" width="138" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Maz-Ow-yzK"/>
+                    </constraints>
+                    <state key="normal" title="第一个页面"/>
+                    <connections>
+                        <action selector="firstBtnClick:" destination="-1" eventType="touchUpInside" id="KDr-SW-82e"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Bhw-Ww-0E5" firstAttribute="top" secondItem="FNI-IY-meq" secondAttribute="bottom" id="6wp-LU-TxO"/>
+                <constraint firstItem="ZEk-uT-clw" firstAttribute="leading" secondItem="EZq-O8-X7W" secondAttribute="trailing" id="7X9-0Y-ao0"/>
+                <constraint firstItem="Bhw-Ww-0E5" firstAttribute="top" secondItem="ZEk-uT-clw" secondAttribute="bottom" id="8nr-Xv-ZE3"/>
+                <constraint firstItem="EZq-O8-X7W" firstAttribute="width" secondItem="FNI-IY-meq" secondAttribute="width" id="Eg2-Ny-jLf"/>
+                <constraint firstItem="Bhw-Ww-0E5" firstAttribute="top" secondItem="EZq-O8-X7W" secondAttribute="bottom" id="ISq-mf-Rw2"/>
+                <constraint firstItem="ZEk-uT-clw" firstAttribute="leading" secondItem="EZq-O8-X7W" secondAttribute="trailing" id="M1d-V2-QTP"/>
+                <constraint firstItem="EZq-O8-X7W" firstAttribute="leading" secondItem="FNI-IY-meq" secondAttribute="trailing" id="MfI-yB-5wi"/>
+                <constraint firstItem="EZq-O8-X7W" firstAttribute="leading" secondItem="FNI-IY-meq" secondAttribute="trailing" id="ZDg-se-paX"/>
+                <constraint firstItem="FNI-IY-meq" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="2" id="d91-yA-XdT"/>
+                <constraint firstItem="FNI-IY-meq" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="2" id="dcY-9g-2hJ"/>
+                <constraint firstAttribute="trailing" secondItem="ZEk-uT-clw" secondAttribute="trailing" constant="-2" id="e4Z-7C-gIA"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="Bhw-Ww-0E5" secondAttribute="bottom" constant="42" id="jeN-qT-5Ut"/>
+                <constraint firstItem="Bhw-Ww-0E5" firstAttribute="top" secondItem="FNI-IY-meq" secondAttribute="bottom" id="kMu-94-0i3"/>
+                <constraint firstItem="EZq-O8-X7W" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="2" id="pAK-7S-GZh"/>
+                <constraint firstItem="ZEk-uT-clw" firstAttribute="width" secondItem="FNI-IY-meq" secondAttribute="width" id="rCp-NC-i14"/>
+                <constraint firstItem="Bhw-Ww-0E5" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="2" id="tgV-cM-hBB"/>
+                <constraint firstItem="ZEk-uT-clw" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="2" id="vmf-zT-sJe"/>
+                <constraint firstAttribute="trailing" secondItem="Bhw-Ww-0E5" secondAttribute="trailing" constant="-2" id="wDT-Jg-gwl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="132" y="154"/>
+        </view>
+    </objects>
+</document>

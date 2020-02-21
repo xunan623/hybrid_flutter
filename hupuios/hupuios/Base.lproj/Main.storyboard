@@ -32,9 +32,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eX-ob-wvN">
-                                <rect key="frame" x="0.0" y="88" width="207" height="40"/>
+                                <rect key="frame" x="0.0" y="88" width="138" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="RcX-xe-Krw"/>
+                                    <constraint firstAttribute="height" constant="40" id="iwy-71-gx4"/>
                                 </constraints>
                                 <state key="normal" title="第一个页面"/>
                                 <connections>
@@ -42,9 +42,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEH-1k-QVy">
-                                <rect key="frame" x="207" y="88" width="207" height="40"/>
+                                <rect key="frame" x="138" y="88" width="138" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="Alw-sQ-vzT"/>
+                                    <constraint firstAttribute="height" constant="40" id="Vvb-RR-gQ3"/>
                                 </constraints>
                                 <state key="normal" title="第二个页面"/>
                                 <connections>
@@ -65,18 +65,32 @@
                                     <action selector="flutterBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mnk-dK-Sio"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAa-WC-a3M">
+                                <rect key="frame" x="276" y="88" width="138" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="CZl-r6-Euy"/>
+                                </constraints>
+                                <state key="normal" title="第三个页面"/>
+                                <connections>
+                                    <action selector="secondBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yub-2E-1AS"/>
+                                    <action selector="thirdClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZRc-kg-6SD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="eDd-Pg-fsM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6vO-Ff-T7A"/>
-                            <constraint firstItem="fEH-1k-QVy" firstAttribute="leading" secondItem="5eX-ob-wvN" secondAttribute="trailing" id="Hqe-An-aOD"/>
-                            <constraint firstItem="5eX-ob-wvN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PbC-qA-2S7"/>
-                            <constraint firstItem="fEH-1k-QVy" firstAttribute="width" secondItem="5eX-ob-wvN" secondAttribute="width" id="QYn-Mo-ID4"/>
-                            <constraint firstItem="5eX-ob-wvN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XhK-uy-ArX"/>
-                            <constraint firstItem="fEH-1k-QVy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dUY-Lu-mRN"/>
-                            <constraint firstItem="eDd-Pg-fsM" firstAttribute="top" secondItem="5eX-ob-wvN" secondAttribute="bottom" id="e7d-t8-BbJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fEH-1k-QVy" secondAttribute="trailing" id="kHd-oK-vFu"/>
+                            <constraint firstItem="MAa-WC-a3M" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AU5-e9-Syy"/>
+                            <constraint firstItem="5eX-ob-wvN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="EeG-RX-3C0"/>
+                            <constraint firstItem="MAa-WC-a3M" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="JYn-6X-k19"/>
+                            <constraint firstItem="eDd-Pg-fsM" firstAttribute="top" secondItem="5eX-ob-wvN" secondAttribute="bottom" id="Jxq-k7-nbn"/>
+                            <constraint firstItem="fEH-1k-QVy" firstAttribute="leading" secondItem="5eX-ob-wvN" secondAttribute="trailing" id="NYe-O2-KJZ"/>
+                            <constraint firstItem="fEH-1k-QVy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Pp3-88-SSd"/>
+                            <constraint firstItem="MAa-WC-a3M" firstAttribute="width" secondItem="5eX-ob-wvN" secondAttribute="width" id="Sep-Ic-aLi"/>
+                            <constraint firstItem="5eX-ob-wvN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="f2z-Gf-aXW"/>
+                            <constraint firstItem="MAa-WC-a3M" firstAttribute="leading" secondItem="fEH-1k-QVy" secondAttribute="trailing" id="fWd-bl-wFJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eDd-Pg-fsM" secondAttribute="bottom" id="owU-ZB-10O"/>
+                            <constraint firstItem="fEH-1k-QVy" firstAttribute="width" secondItem="5eX-ob-wvN" secondAttribute="width" id="se9-nP-HF2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eDd-Pg-fsM" secondAttribute="trailing" id="zwY-xT-Vg0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -84,13 +98,12 @@
                     <navigationItem key="navigationItem" id="khZ-Sc-9YR"/>
                     <connections>
                         <outlet property="firstBtn" destination="5eX-ob-wvN" id="B9f-vB-lJa"/>
-                        <outlet property="scrollView" destination="eDd-Pg-fsM" id="h7j-7K-wBT"/>
                         <outlet property="secondBtn" destination="fEH-1k-QVy" id="s2i-Jg-vDm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-887" y="-67"/>
+            <point key="canvasLocation" x="-888.40579710144937" y="-67.633928571428569"/>
         </scene>
     </scenes>
 </document>

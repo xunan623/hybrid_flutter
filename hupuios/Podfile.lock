@@ -1,7 +1,10 @@
 PODS:
   - Flutter (1.0.0)
+  - flutter_boost (0.0.2):
+    - Flutter
   - FlutterPluginRegistrant (0.0.1):
     - Flutter
+    - flutter_boost
   - Masonry (1.1.0)
   - vp_flutter (0.0.1):
     - Flutter
@@ -9,6 +12,7 @@ PODS:
 
 DEPENDENCIES:
   - Flutter (from `../vp_flutter/.ios/Flutter/engine`)
+  - flutter_boost (from `../vp_flutter/.ios/Flutter/.symlinks/flutter_boost/ios`)
   - FlutterPluginRegistrant (from `../vp_flutter/.ios/Flutter/FlutterPluginRegistrant`)
   - Masonry (~> 1.1.0)
   - vp_flutter (from `../vp_flutter/.ios/Flutter`)
@@ -22,6 +26,8 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Flutter:
     :path: "../vp_flutter/.ios/Flutter/engine"
+  flutter_boost:
+    :path: "../vp_flutter/.ios/Flutter/.symlinks/flutter_boost/ios"
   FlutterPluginRegistrant:
     :path: "../vp_flutter/.ios/Flutter/FlutterPluginRegistrant"
   vp_flutter:
@@ -29,7 +35,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
+  flutter_boost: a7cfa776b75329d5e7d101d0cd33e75042bcde69
+  FlutterPluginRegistrant: 717df6b322c7d500c17eeff54284c74ed5410c7b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   vp_flutter: cb89c3327c90b448314e01a86ddb69e23716846f
   WHDebugTool: 93b0a99e3b47e57f94b91c407b4a4c5bfaaec531

@@ -1,24 +1,23 @@
 //
-//  FirstViewController.m
-//  hupuiOS
+//  FirstController.m
+//  hupuios
 //
-//  Created by xunan on 2020/2/12.
+//  Created by xunan on 2020/2/19.
 //  Copyright © 2020 centanet. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "FirstController.h"
 #import <Masonry/Masonry.h>
 
-@interface FirstViewController ()
-
+@interface FirstController ()
 
 @end
 
-@implementation FirstViewController
+@implementation FirstController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     UILabel *centerLabel = [[UILabel alloc] init];
     [self.view addSubview:centerLabel];
     centerLabel.text = @"FirstDemo";
@@ -27,5 +26,7 @@
         make.left.right.top.bottom.mas_equalTo(0);
     }];
 }
+
+
 
 @end

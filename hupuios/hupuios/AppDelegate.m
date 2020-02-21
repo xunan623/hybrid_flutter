@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <GeneratedPluginRegistrant.h>
+#import "PlatformRouterImp.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [GeneratedPluginRegistrant registerWithRegistry:self];
+//    [GeneratedPluginRegistrant registerWithRegistry:self];
+    
+    
+    PlatformRouterImp *router = [PlatformRouterImp new];
+    [FlutterBoostPlugin.sharedInstance startFlutterWithPlatform:router
+                                                        onStart:^(FlutterEngine *engine) {
+                                                            
+                                                        }];
+
     return YES;
 }
 
